@@ -1,0 +1,38 @@
+                                                                 Lab - 4
+Evaluative Questions
+(5 points) 2-D Array, Recursion: CO1
+
+
+Q1) Imagine you are an explorer lost in a maze. You can only move in four directions: up, down, left, and right. Write a recursive function to help you find your way out of the maze. The maze is represented as a 2D grid where '0' represents an open path and '1' represents a wall. Your function should return true if you can escape the maze, and false otherwise.
+Example:
+Maze:
+0 0 0
+1 1 0
+0 0 0
+
+Expected Output: true
+
+	Maze:
+0 0 1
+1 1 1
+0 0 1
+
+Expected Output: false
+
+Q2) (5 points)Array, Recursion: CO 1, CO2 
+Write a divide and conquer algorithm that recursively divides the array into smaller subarrays, computes the maximum subarray sum for each subarray, and combines the results to reveal the overall maximum subarray sum. What is the time complexity of your algorithm? Mention as comments. 
+
+Scenario 1:
+Array: [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+Expected Output: 6
+Explanation: The contiguous subarray [4, -1, 2, 1] has the largest sum of 6.
+
+Scenario 2:
+Array: [1, 2, 3, 4, -10, 6, 7, 8, 9]
+Expected Output: 35
+Explanation: The entire array [1, 2, 3, 4, -10, 6, 7, 8, 9] has the largest sum of 35.
+
+Scenario 3:
+Array: [-5, -2, -6, -1, -2, -3, -7, -4]
+Expected Output: -1
+Explanation: The contiguous subarray [-1] has the largest sum of -1.
