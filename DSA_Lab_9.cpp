@@ -104,20 +104,21 @@ class AVL{
 
         head->balancingFactor = (heightCalc(head->lchild)-(heightCalc(head->rchild)));
 
-        if (head->balancingFactor>1 && head->lchild->data<x){
+        if (head->balancingfactor> 1 && lchild->balancingfactor>=0) {
+            return rightRotate(head);
+        }
+        if (head->balancingfactor> 1 && lchild->balancingfactor<0) {
             head->lchild = leftRotate(head->lchild);
             return rightRotate(head);
         }
-        else if (head->balancingFactor<-1 && head->rchild->data>x){
+        if (head->balancingfactor< -1 && rchild->balancingfactor<=0) {
+            return leftRotate(head);
+        }
+        if (head->balancingfactor< -1 && rchild->balancingfactor>0) {
             head->rchild = rightRotate(head->rchild);
             return leftRotate(head);
         }
-        else if (head->balancingFactor>1 && head->lchild->data>x){
-            return rightRotate(head);
-        }
-        else if (head->balancingFactor<-1 && head->rchild->data<x){
-            return leftRotate(head);
-        }
+
         return head;
     }
 
