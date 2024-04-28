@@ -15,7 +15,7 @@ bool isValidBST(int arr[], int start, int end){
 			}
 		}
 		for (int i=greater; i<end; i++){
-			if(arr[i]<root){
+			if(arr[i]<=root){
 				return false;
 			}
 		}
