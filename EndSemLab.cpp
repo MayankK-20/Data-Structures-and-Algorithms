@@ -6,10 +6,7 @@ bool isValidBST(int arr[], int start, int end){
 		int root=arr[start];
 		int greater=end;
 		for (int i=start+1; i<end; i++){
-			if (arr[i]==root){
-				return false;
-			}
-			if(arr[i]>root){
+			if(arr[i]>=root){
 				greater=i;
 				break;
 			}
