@@ -114,7 +114,7 @@ int main(){
 
 
 
-//Question 4 binary search by recurstion
+//Question 4 binary search by recursion
 /*
 #include<iostream>
 using namespace std;
