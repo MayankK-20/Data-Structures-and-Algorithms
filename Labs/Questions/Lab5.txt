@@ -1,0 +1,13 @@
+Quick Sort 
+
+[5 points] Imagine you're solving a jigsaw puzzle with friends. Each piece represents an element in an array, and your task is to sort them into the correct order. However, your friends have a peculiar habit; they always hand you the last piece of the puzzle first! Write a function to efficiently sort the puzzle pieces (array elements) using the last piece as the pivot. Use Quick Sort for the same.  Display the array partition and the corresponding pivot selected in each iteration. Finally display the sorted array in ascending order. 
+
+Example:
+Input: [3, 1, 4, 1, 5, 9, 2, 6, 5, 3]
+Expected Output: [1, 1, 2, 3, 3, 4, 5, 5, 6, 9]
+
+[5 points] You're exploring a cave filled with chests of various sizes, each containing valuable treasures represented by array elements. To efficiently organize your findings, you decide to sort the treasures using a unique method. Instead of always choosing the biggest or smallest chest as a reference, you opt for randomness to keep your quest unpredictable. Develop a function for quicksort, where you randomly select a chest (pivot) to partition the array. Display the array partition and the corresponding pivot selected in each iteration. Finally display the sorted array in descending order. 
+
+Example:
+	Input: [9, 8, 7, 6, 5, 4, 3, 2, 1]
+Expected Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]

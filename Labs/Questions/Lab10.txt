@@ -1,0 +1,17 @@
+Lab - Heaps
+Implementing a Min Heap (array-based representation):
+Write code to create an empty heap.(1 Mark)
+Implement insertion operation (inserting an element into the heap).(1.5 for insertion + 1.5 for heapify)
+Implement deletion operation (deleting the root element from the heap). (1.5 for deletion + 1.5 for heapify)
+
+Heap Operations:
+Implement heapify operation (ensuring the heap property is maintained after insertion or deletion).
+Implement extract-min operation (removing and returning the minimum element from the heap). (1 mark) 
+Implement heap sort using heap operations. (1 mark) 
+
+Heap Applications:
+[ Practice question]Discuss and implement priority queues using heaps. 
+[ Practice question] Explore other applications of heaps such as heap-based graph algorithms (Dijkstra’s algorithm, Prim’s algorithm).
+
+
+Please write a driver(main) function and call all the above functions appropriately from it. (1 mark)

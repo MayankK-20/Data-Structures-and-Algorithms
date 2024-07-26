@@ -1,0 +1,27 @@
+Implementation of Binary Search Tree (BST)
+Create a class or data structure to represent a Binary Search Tree.
+Define necessary attributes and methods for the BST.
+
+Insertion Operation	
+Implement a method to insert a new node into the BST.
+Ensure that the property of the BST (left child < parent < right child) is maintained after insertion.
+
+Deletion Operation
+Implement a method to delete a node from the BST.
+Handle different cases: node with no children, node with one child, and node with two children.
+Ensure that the property of the BST is maintained after deletion.
+
+Traversal Operations
+Implement methods for different types of tree traversal:
+Inorder traversal
+Preorder traversal
+Postorder traversal
+
+Height Calculation
+Implement a method to calculate the height of the BST.
+Height of an empty tree is considered -1.
+Height of a tree with only one node is considered 0.
+
+Number of Nodes Calculation
+Implement a method to count the total number of nodes in the BST.
+

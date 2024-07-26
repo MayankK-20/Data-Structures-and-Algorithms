@@ -1,0 +1,32 @@
+
+[2 points]Graph Representation:
+Implement the Adjacency List and Adjacency Matrix representation of Graph.
+Implement the functions to insert and delete an edge in the above two representations. 
+
+[2 point] Graph Traversal:
+Implement the depth-first search (DFS) algorithm for traversing a graph.
+Implement the breadth-first search (BFS) algorithm for traversing a graph.
+
+[3 points]Graph Properties:
+Given a graph, determine whether it is connected or disconnected.
+Given a graph, determine whether it isalgorithms.
+	 directed or undirected.
+
+[3 points]Graph Algorithms:	
+Implement algorithms to find the shortest path between two vertices in a graph (e.g., Dijkstra's algorithm, Bellman-Ford algorithm). You can implement any one of these algorithms.
+Implement algorithms to find the minimum spanning tree of a graph (e.g., Kruskal's algorithm, Prim's algorithm).You can implement any one of these 
+
+
+	Practice Questions
+
+Graph Applications:
+Discuss real-world applications of graphs in various domains such as social networks, transportation networks, computer networks, and recommendation systems.
+Design a graph-based data structure to represent a social network. Implement functionalities such as adding friends, removing friends, and finding mutual friends.
+
+Graph Problems:
+Solve classic graph problems such as finding cycles in a graph, detecting bipartite graphs, and checking for the existence of a path between two vertices.
+Implement algorithms to detect strongly connected components in a directed graph.
+
+Graph Optimization:
+Given a graph with weighted edges, find the shortest path from a source vertex to all other vertices using Dijkstra's algorithm.
+Given a graph with weighted edges, find the minimum spanning tree using Prim's algorithm.

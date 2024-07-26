@@ -1,0 +1,63 @@
+Evaluative Exercise
+
+[2 points] Basic Implementation of Hashtable- for both Open and closed addressing
+Create a class or data structure to represent a Hashtable.(for both open and closed addressing)
+Define necessary attributes and methods for the Hashtable. 
+
+[1 points] Insertion Operation
+Implement a method to insert a key-value pair into the Hashtable.(for both open and closed addressing)
+Handle collisions using techniques such as chaining for closed addressing and linear probing for open addressing.[refer to pt.5]
+
+[2 points] Deletion Operation- for both Open and closed addressing
+Implement a method to delete a key-value pair from the Hashtable.
+Ensure that the Hashtable remains consistent after deletion.
+
+[2 points] Search Operation- for both Open and closed addressing
+Implement a method to search for a key in the Hashtable and retrieve its corresponding value.
+Handle cases where the key may or may not exist in the Hashtable.
+
+[3 points] Collision Handling
+Implement collision resolution techniques:
+For Closed Addressing: Chaining
+For Open Addressing:
+Linear Probing
+Formula: h(k, i)=(h′(k)+i) mod m
+
+Quadratic Probing
+Formula: h(k,i)=(h′(k)+i2) mod m
+
+Double Hashing
+Formula: h(k, i)=(h​1(k)+i⋅h​2​(k)) mod m
+You may choose m, h1, h2 yourself. Just mention it as comments in your code. 
+
+Where:
+h′(k) is the initial hash value.
+m is the size of the Hashtable.
+h​1(k) and h​2​(k) are two independent hash functions for double hashing.
+i is the probe number (starting from 0).
+
+Practice Exercise
+
+Re-hashing
+Implement a method to re-hash the Hashtable when the load factor exceeds a certain threshold.
+Explore different re-hashing strategies such as increasing table size and prime number re-hashing.
+
+Solve the following question using Hashtable:
+
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+Example 1
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+
+Example 2:
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+
+Example 3:
+Input: nums = [3,3], target = 6
+Output: [0,1]
+

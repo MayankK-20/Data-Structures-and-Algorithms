@@ -1,0 +1,20 @@
+Implementation of AVL Tree
+1. Creation of AVL class [ 1 marks]
+ Create a class or data structure to represent an AVL Tree.
+  Define necessary attributes and methods for the AVL tree.
+Define an attribute named “balancing factor” which is maintained with each insertion / deletion operation. 
+
+2. Insertion Operation [ 1.5*4 = 6 marks]
+Implement a method to insert a new node into the AVL tree.
+Ensure that the AVL tree property (balance factor of every node is either -1, 0, or 1) is  maintained after insertion.
+Perform necessary rotations (left-left, left-right, right-right, right-left) to balance the tree if required.
+
+3. Deletion Operation [ 2 marks]
+Implement a method to delete a node from the AVL tree.
+Handle different cases: node with no children, node with one child, and node with two children.
+Ensure that the AVL tree property is maintained after deletion.
+Perform necessary rotations to balance the tree if required.
+
+4. Search Operation [1 mark]
+Implement a method to search for a key in the AVL tree.
+Return the node if found, otherwise return None.
